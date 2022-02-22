@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>														<!--html tag-->
+<head>														<!--header tag-->
+<title>calculator</title>											<!--title tag-->
+<style>
+
+
+.wrap{
+box-sizing:border-box;												<!--bordering the box -->
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+width:400px;													<!--space on both sides-->
+margin:auto;				
+height:auto;
+size:100%;
+display:block;
+margin-right:auto;
+margin-left:auto;
+background:skyblue;												<!--background color-->
+padding:15px;													<!--space after content -->
+text-align:center;
+}
+
+input[type=text]{	<!---->
+width:100%;
+padding:10px;
+margin-left:auto;
+font-size:22px;
+font-weight:bold;
+margin-top:20px;
+border-radius:5px;
+
+}
+input[type=button]{
+width:80px;
+margin-left:auto;
+padding:05px;
+font-size:22px;
+font-weight:bold;
+border-radius:10px;
+
+}
+h1{
+margin-bottom:10px;
+}
+
+</style>													<!--closing style tag-->
+</head>														<!--closing header tag-->
+<body style="background-color:lightgray;">										<!--body tag main content of html starts-->
+<div class="wrap">												<!--defining class name as "rough"-->
+	<form name='cals'>											<!--defining from name as "cals"-->
+	<h1 style="text-align:center;">CALCULATOR</h1>
+	<input style="width:90%;" type='text' name='display'>									<!--declaring i/p type and name type-->
+	<br><br>												<!--line breaker-->			
+	<input type='button' value='9' onclick='cals.display.value+="9"'>
+	<input type='button' value='8' onclick='cals.display.value+="8"'>
+	<input type='button' value='7' onclick='cals.display.value+="7"'>
+	<input type='button' value='+' onclick='cals.display.value+="+"'>
+	<br><br>	
+	<input type='button' value='6' onclick='cals.display.value+="6"'>
+	<input type='button' value='5' onclick='cals.display.value+="5"'>
+	<input type='button' value='4' onclick='cals.display.value+="4"'>
+	<input type='button' value='-' onclick='cals.display.value+="-"'>
+	<br><br>
+	<input type='button' value='3' onclick='cals.display.value+="3"'>
+	<input type='button' value='2' onclick='cals.display.value+="2"'>
+	<input type='button' value='1' onclick='cals.display.value+="1"'>
+	<input type='button' value='*' onclick='cals.display.value+="*"'>
+	<br><br>
+	<input type='button' value='0' onclick='cals.display.value+="0"'>
+	<input type='button' value='/' onclick='cals.display.value+="/"'>
+	<input type='button' value='%' onclick='cals.display.value+="%"'>
+	<input type='button' value='=' onclick='cals.display.value=eval(cals.display.value)'>
+	<br><br>
+	<input type='button' value='Clear' onclick='cals.display.value=""' id='Clear'>
+	<input type='button' value='00' onclick='cals.display.value+="00"'>
+	<input type='button' value='000' onclick='cals.display.value+="000"'>
+	<input type='button' value='.' onclick='cals.display.value+="."'>
+	<h4>Calculator By-Gopi</h4>
+	</form>
+</div>
+</body>
+</html>
