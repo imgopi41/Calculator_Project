@@ -1,4 +1,10 @@
 # Calculator_Project
-This is Calculator Project using HTML
-This project involves many special commands and more than 2 classes are defined.
-This code can also be written using CSS.
+
+This is Calculator project implemented by using simple HTML commands.
+
+
+**I. Description**
+
+Firstly, this Calculator project is implemented by using simple html commands and html classes. This project is used for simple calculations only, Project takes user 
+input and performs calculations, with the operation choosen by the user and displays the answer. 
+
