@@ -15,3 +15,11 @@ Language: Python(3.6)
 
 IDE used: Pycharm
 
+
+**III. Tools**
+
+1. Box-Sizing: allows padding & border to the elements with total width and height.
+2. Webkit-Box-Sizing: tool used to calculate the width & height of the elements.
+3. Text: defines single-line text field.
+4. Button: used to create clickable option to your html page.
+
