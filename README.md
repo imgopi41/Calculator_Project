@@ -25,3 +25,5 @@ IDE used: Pycharm
 
 **IV. Workflow**
 
+1. Calculator takes user input and operation
+
