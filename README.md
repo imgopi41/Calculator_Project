@@ -26,8 +26,12 @@ IDE used: Pycharm
 
 1. This project is implemented to perform arithmetic operations.
 2. Project takes user input, on the html page.
-3. Numbers and decimal point is also provided in this calculator.
-4. Clear button is used to clear the display bar.
+3. Clear/AC button is used to clear the display bar.
+4. Double and triple zero is also provided, to make user calculations easy.
+
+**V. Application & Future enhancements**
+
+This project can be enhanced with scientific calculator & with interactive UI.
 
 
 
