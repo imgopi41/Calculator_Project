@@ -20,10 +20,14 @@ IDE used: Pycharm
 
 1. Box-Sizing: allows padding & border to the elements with total width and height.
 2. Webkit-Box-Sizing: tool used to calculate the width & height of the elements.
-3. Text: defines single-line text field.
-4. Button: used to create clickable option to your html page.
+3. Button: used to create clickable option to your html page.
 
 **IV. Workflow**
 
-1. Calculator takes user input and operation
+1. This project is implemented to perform arithmetic operations.
+2. Project takes user input, on the html page.
+3. Numbers and decimal point is also provided in this calculator.
+4. Clear button is used to clear the display bar.
+
+
 
