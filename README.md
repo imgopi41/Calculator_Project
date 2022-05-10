@@ -11,9 +11,9 @@ input and performs calculations, with the operation choosen by the user and disp
 
 **II. Technology Stack**
 
-Language: Python(3.6)
+Language: HTML
 
-IDE used: Pycharm
+IDE used: VS CODE(1.67.0)
 
 
 **III. Tools**
