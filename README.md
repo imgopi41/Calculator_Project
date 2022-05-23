@@ -29,7 +29,14 @@ IDE used: VS CODE(1.67.0)
 3. Clear/AC button is used to clear the display bar.
 4. Double and triple zero is also provided, to make user calculations easy.
 
-**V. Application & Future enhancements**
+**V. Demo**
+
+![Calculator_demo](https://user-images.githubusercontent.com/99798157/169758115-7c2374ae-4567-4928-835a-1f03477a4b57.JPG)
+
+
+
+
+**VI. Application & Future enhancements**
 
 This project can be enhanced with scientific calculator & with interactive UI.
 
